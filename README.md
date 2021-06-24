@@ -61,15 +61,15 @@ Below is a list of requirements explaining what the application should do:
 
 > _**Note:** keep the console open as you play the game so that you can see the randomly generated "target number"_
 
-![Game Play: Step 1](instructions/game-play/step-1.png)
+<img src="instructions/game-play/step-1.png" alt="Game Play: Step 1" width="600" />
 
 - [ ] At the start, the "reset" button and all of the "messages" should be hidden
 
-![Game Play: Step 2](instructions/game-play/step-2.png)
+<img src="instructions/game-play/step-2.png" alt="Game Play: Step 2" width="600" />
 
 - [ ] You should be able to type a number into the input field and click "Submit Guess" to submit the form
 
-![Game Play: Step 3](instructions/game-play/step-3.png)
+<img src="instructions/game-play/step-3.png" alt="Game Play: Step 3" width="600" />
 
 - [ ] When the form is submitted, you should see the following:
 
@@ -80,27 +80,27 @@ Below is a list of requirements explaining what the application should do:
 
 - [ ] If the guessed number is BELOW the target, the message should say "too low"
 
-![Game Play: Step 4](instructions/game-play/step-4.png)
+<img src="instructions/game-play/step-4.png" alt="Game Play: Step 4" width="600" />
 
 - [ ] If the guessed number is ABOVE the target, the message should say "too high"
 
-![Game Play: Step 5](instructions/game-play/step-5.png)
+<img src="instructions/game-play/step-5.png" alt="Game Play: Step 5" width="600" />
 
 - [ ] If the guessed number is the SAME as the target, then:
   - [ ] The input field and "Submit Guess" button should be disabled
   - [ ] The message should say "guessed correctly"
 
-![Game Play: Step 6a](instructions/game-play/step-6a.png)
+<img src="instructions/game-play/step-6a.png" alt="Game Play: Step 6a" width="600" />
 
 - [ ] If the guessed number is not the same AND all 5 tries have been used, then:
   - [ ] The input field and "Submit Guess" button should be disabled
   - [ ] The message should say "0 guesses remaining"
 
-![Game Play: Step 6b](instructions/game-play/step-6b.png)
+<img src="instructions/game-play/step-6b.png" alt="Game Play: Step 6b" width="600" />
 
 - [ ] When you click the "reset" button, the form should return to its initial state (not disabled)
 
-![Game Play: Reset](instructions/game-play/step-reset.png)
+<img src="instructions/game-play/step-reset.png" alt="Game Play: Step Reset" width="600" />
 
 ### Stretch Goals:
 
@@ -110,15 +110,15 @@ These items are not necessarily bugs in the code, but rather, missing features t
 
 - [ ] You should not be able to submit a guessed number lower than 1
 
-![Game Play: Step 7](instructions/game-play/step-7.png)
+<img src="instructions/game-play/step-7.png" alt="Game Play: Step 7" width="600" />
 
 - [ ] You should not be able to submit a guessed number higher than 99
 
-![Game Play: Step 8](instructions/game-play/step-8.png)
+<img src="instructions/game-play/step-8.png" alt="Game Play: Step 8" width="600" />
 
 - [ ] If there is only one guess left, it should say "guess" (singular) instead of "guesses" (plural)
 
-![Game Play: Step 9](instructions/game-play/step-9.png)
+<img src="instructions/game-play/step-9.png" alt="Game Play: Step 9" width="600" />
 
 ### Final Step:
 

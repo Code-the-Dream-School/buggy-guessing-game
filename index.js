@@ -55,7 +55,7 @@ function checkGuess() {
   if (attempts === maxNumberOfAttempts) {
     submitButton.disabled = true;
     guessInput.disabled = true;
-    tooLowMessage.style.display = "none";
+    tooLowMessage.style.display = 'none';
   }
 
   guessInput.value = "";

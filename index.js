@@ -31,9 +31,11 @@ function checkGuess() {
   
   hideAllMessages();
   resetButton.style.display = ''
-  
+  attempts++;
   if (guess === targetNumber) {
+    
     numberOfGuessesMessage.innerHTML = `You made ${attempts} guesses`;
+    
     numberOfGuessesMessage.style.display='block';
     correctMessage.style.display = '';
     submitButton.disabled = true;
@@ -71,18 +73,13 @@ function checkGuess() {
     
 }
 
-else{
-  document.getElementById('max-guesses');
-  
-  //submitButton.disabled=true;
-   //guessInput.disabled=true;
- }
+
  if(attempts===maxNumberOfAttempts){
   guessInput.disabled=true;
   submitButton.disabled=true;
   }
-    attempts++;
-  }
+   
+}
   
 
 
@@ -103,8 +100,8 @@ function setup() {
   console.log(`target number: ${targetNumber}`);
 
   // Reset number of attempts
-  maxNumberOfAttempts=5;
-
+  //maxNumberOfAttempts=5;
+attempts=0;
   // Enable the input and submit button
   submitButton.disabled = false;
   guessInput.disabled = false;

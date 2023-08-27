@@ -13,3 +13,19 @@ main {
 #reset {
   margin: 20px;
 }
+
+
+/* DISREGARD THIS
+I'M GOING TO TRY TO MAKE AN ANIMATION IF THEY GUESS CORRECT */
+/* @keyframes correctAnimation {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: aqua;
+  }
+}
+
+.correct-animation {
+  animation: correctAnimation 1s ease-in;
+} */

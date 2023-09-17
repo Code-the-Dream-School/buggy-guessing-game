@@ -27,7 +27,9 @@ Click the "Code" button (1), select HTTPS (2) and copy the URL (3) for your repo
 
 ![Fork Assignment: Step 4](instructions/fork-assignment/fork-step-4.png)
 
-Clone this repository so that the code is available on your local machine.  **BE SURE YOU ARE NOT INSIDE YOUR LOCAL FOLDER FOR YOUR PORTFOLIO PROJECT WHEN YOU CLONE THIS REPOSITORY!**
+Clone this repository so that the code is available on your local machine.  
+
+## **BE SURE YOU ARE NOT INSIDE YOUR LOCAL FOLDER FOR YOUR PORTFOLIO PROJECT WHEN YOU CLONE THIS REPOSITORY!**
 
 > Hint: Run this command from the directory where you want to store your code, NOT inside your portfolio folder.
 

@@ -85,7 +85,7 @@ function checkGuess() {
   guessInput.disabled = false;
 
   hideAllMessages();
-  resetButton.style.display = 'none';
+  //resetButton.style.display = 'none';
 }
 
   submitButton.addEventListener('click', checkGuess);

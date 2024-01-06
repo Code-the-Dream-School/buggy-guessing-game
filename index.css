@@ -12,4 +12,9 @@ main {
 
 #reset {
   margin: 20px;
+  display:block;
+}
+
+#message {
+  display: none;
 }

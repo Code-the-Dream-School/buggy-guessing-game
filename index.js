@@ -33,7 +33,7 @@ function checkGuess() {
     numberOfGuessesMessage.style.display = '';
     numberOfGuessesMessage.innerHTML = `You made ${attempts} guesses`;
 
-    //correctMessage.style.display = '';
+    correctMessage.style.display = '';
 
     submitButton.disabled = true;
     guessInput.disabled = true;

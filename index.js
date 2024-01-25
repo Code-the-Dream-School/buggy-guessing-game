@@ -88,8 +88,9 @@ function hideAllMessages() {
 
 function setup() {
   // Get random number
-  //targetNumber = getRandomNumber(1, 99);
-  targetNumber = 42;
+  targetNumber = getRandomNumber(1, 99);
+  //test when correct
+  //targetNumber = 42;
   console.log(`target number: ${targetNumber}`);
 
   // Reset number of attempts
